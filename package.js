@@ -12,11 +12,13 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles('google-contacts.js');
+  api.addFiles('index.js', 'server');
 });
 
+/*
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('nkg:google-contacts');
   api.addFiles('google-contacts-tests.js');
 });
+*/
