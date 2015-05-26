@@ -19,6 +19,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('nkg:google-contacts');
-  api.addFiles('google-contacts-tests.js');
+  api.addFiles('index.js', 'server');
 });
 */
